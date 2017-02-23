@@ -30,8 +30,8 @@
         {
             this.grpxDotfuscatorUpdater = new System.Windows.Forms.GroupBox();
             this.btnUpdateDotfuscator = new System.Windows.Forms.Button();
-            this.txtSlnPath = new System.Windows.Forms.TextBox();
-            this.lblSlnPath = new System.Windows.Forms.Label();
+            this.txtiBuildingDir = new System.Windows.Forms.TextBox();
+            this.lbliBuildingDir = new System.Windows.Forms.Label();
             this.grpxClearProduct = new System.Windows.Forms.GroupBox();
             this.btnClearProduct = new System.Windows.Forms.Button();
             this.txtProductPath = new System.Windows.Forms.TextBox();
@@ -44,8 +44,8 @@
             // 
             this.grpxDotfuscatorUpdater.BackColor = System.Drawing.SystemColors.Control;
             this.grpxDotfuscatorUpdater.Controls.Add(this.btnUpdateDotfuscator);
-            this.grpxDotfuscatorUpdater.Controls.Add(this.txtSlnPath);
-            this.grpxDotfuscatorUpdater.Controls.Add(this.lblSlnPath);
+            this.grpxDotfuscatorUpdater.Controls.Add(this.txtiBuildingDir);
+            this.grpxDotfuscatorUpdater.Controls.Add(this.lbliBuildingDir);
             this.grpxDotfuscatorUpdater.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.grpxDotfuscatorUpdater.ForeColor = System.Drawing.SystemColors.ControlText;
             this.grpxDotfuscatorUpdater.Location = new System.Drawing.Point(1, 2);
@@ -66,26 +66,26 @@
             this.btnUpdateDotfuscator.UseVisualStyleBackColor = true;
             this.btnUpdateDotfuscator.Click += new System.EventHandler(this.btnUpdateDotfuscator_Click);
             // 
-            // txtSlnPath
+            // txtiBuildingDir
             // 
-            this.txtSlnPath.AllowDrop = true;
-            this.txtSlnPath.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtSlnPath.Location = new System.Drawing.Point(12, 37);
-            this.txtSlnPath.Multiline = true;
-            this.txtSlnPath.Name = "txtSlnPath";
-            this.txtSlnPath.Size = new System.Drawing.Size(421, 52);
-            this.txtSlnPath.TabIndex = 1;
-            this.txtSlnPath.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtSlnPath_DragEnter);
+            this.txtiBuildingDir.AllowDrop = true;
+            this.txtiBuildingDir.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txtiBuildingDir.Location = new System.Drawing.Point(12, 37);
+            this.txtiBuildingDir.Multiline = true;
+            this.txtiBuildingDir.Name = "txtiBuildingDir";
+            this.txtiBuildingDir.Size = new System.Drawing.Size(421, 52);
+            this.txtiBuildingDir.TabIndex = 1;
+            this.txtiBuildingDir.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtSlnPath_DragEnter);
             // 
-            // lblSlnPath
+            // lbliBuildingDir
             // 
-            this.lblSlnPath.AutoSize = true;
-            this.lblSlnPath.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblSlnPath.Location = new System.Drawing.Point(12, 21);
-            this.lblSlnPath.Name = "lblSlnPath";
-            this.lblSlnPath.Size = new System.Drawing.Size(77, 12);
-            this.lblSlnPath.TabIndex = 0;
-            this.lblSlnPath.Text = ".sln文件路径";
+            this.lbliBuildingDir.AutoSize = true;
+            this.lbliBuildingDir.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.lbliBuildingDir.Location = new System.Drawing.Point(12, 21);
+            this.lbliBuildingDir.Name = "lbliBuildingDir";
+            this.lbliBuildingDir.Size = new System.Drawing.Size(119, 12);
+            this.lbliBuildingDir.TabIndex = 0;
+            this.lbliBuildingDir.Text = "iBuilding文件夹路径";
             // 
             // grpxClearProduct
             // 
@@ -154,8 +154,8 @@
 
         #endregion
         private System.Windows.Forms.GroupBox grpxDotfuscatorUpdater;
-        private System.Windows.Forms.TextBox txtSlnPath;
-        private System.Windows.Forms.Label lblSlnPath;
+        private System.Windows.Forms.TextBox txtiBuildingDir;
+        private System.Windows.Forms.Label lbliBuildingDir;
         private System.Windows.Forms.Button btnUpdateDotfuscator;
         private System.Windows.Forms.GroupBox grpxClearProduct;
         private System.Windows.Forms.Button btnClearProduct;

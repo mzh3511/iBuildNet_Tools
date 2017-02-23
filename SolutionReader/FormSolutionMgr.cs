@@ -14,7 +14,7 @@ namespace SolutionReader
         private void btnUpdateDotfuscator_Click(object sender, EventArgs e)
         {
             var updater = new DotfuscatorUpdater();
-            if (!updater.Initialize(txtSlnPath.Text.Trim()))
+            if (!updater.Initialize(txtiBuildingDir.Text.Trim()))
                 return;
             MessageBox.Show($"共需加密{updater.Update()}个文件");
         }
@@ -45,7 +45,7 @@ namespace SolutionReader
                 e.Effect = DragDropEffects.None;
                 return;
             }
-            txtSlnPath.Text = slnPath;
+            txtiBuildingDir.Text = slnPath;
             e.Effect = DragDropEffects.Link;
         }
 
