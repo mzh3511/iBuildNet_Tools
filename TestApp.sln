@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutoMapper", "TestAutoMapper\TestAutoMapper.csproj", "{E770DD5B-4045-43BA-9BEA-61E1AA820269}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTest", "WpfTest\WpfTest.csproj", "{D7AD235A-41B5-4ACE-B4D5-4731B8D63556}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolutionReader", "SolutionReader\SolutionReader.csproj", "{25410F45-1A06-4104-8778-8335E1958056}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VDSimilar", "VDSimilar\VDSimilar.csproj", "{AD795229-E22E-45FD-AFED-8202CF5D30CE}"
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E770DD5B-4045-43BA-9BEA-61E1AA820269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E770DD5B-4045-43BA-9BEA-61E1AA820269}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E770DD5B-4045-43BA-9BEA-61E1AA820269}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E770DD5B-4045-43BA-9BEA-61E1AA820269}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D7AD235A-41B5-4ACE-B4D5-4731B8D63556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D7AD235A-41B5-4ACE-B4D5-4731B8D63556}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D7AD235A-41B5-4ACE-B4D5-4731B8D63556}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D7AD235A-41B5-4ACE-B4D5-4731B8D63556}.Release|Any CPU.Build.0 = Release|Any CPU
 		{25410F45-1A06-4104-8778-8335E1958056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{25410F45-1A06-4104-8778-8335E1958056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25410F45-1A06-4104-8778-8335E1958056}.Release|Any CPU.ActiveCfg = Release|Any CPU
